@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+    font-family: var(--font-family);
+    color:var(--cor-texto);
+    font-weight: var(--weight-light);
+}
+
+body{
+    height: 100vh;
+}
+
+.fundo{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo);
+}
+
+.cartao{
+    background-color: var(--cor-cartao);
+    padding:3rem;
+    border-radius:3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:380px;
+    max-width: 90%;
+    height:640px;
+    max-height: 90%;
+    font-size:var(--font-size);
+}
+
+.imagem-nft{
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+.imagem-nft:hover{
+    cursor:pointer;
+}
+
+.nome-nft{
+    font-size: 2.2rem;
+    color:var(--branco);
+    font-weight: var(--weight-bold);
+    align-self:flex-start;
+}
+
+.nome-nft:hover{
+    color:var(--cor-active);
+    
+}
+
+.valor-e-dias{
+    display:flex;
+    justify-content: space-between;
+}
+
+.valor{
+    font-weight: var(--weight-bold);
+    color:var(--cor-active);
+}
+
+.valor::before{
+    content:url(../images/icon-ethereum.svg);
+    padding-right:.5rem;
+}
+
+.dias::before{
+    content:url(../images/icon-clock.svg);
+    padding-right:.5rem;
+}
+
+hr{
+    border:1px solid var(--cor-linha)
+}
+
+.avatar-e-criador{
+    display:flex;
+    align-items: center;
+    gap:1.3rem;
+}
+
+.avatar{
+    border: 1px solid white ;
+    border-radius: 50%;
+    width: 3.5rem;
+}
+
+.criador{
+    font-size: 1.7rem;
+}
+
+.nome{
+    color:var(--branco);
+    font-weight: var(--weight-regular);
+}
+
+.nome:hover{
+    color:var(--cor-active);
+}
+
