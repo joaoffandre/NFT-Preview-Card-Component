@@ -36,20 +36,18 @@ body{
     border-radius: 3%;
 }
 
-.imagem-nft:hover{
-    cursor:pointer;
+.link-titulo{
+    align-self: flex-start;
 }
 
 .nome-nft{
     font-size: 2.2rem;
     color:var(--branco);
     font-weight: var(--weight-bold);
-    align-self:flex-start;
 }
 
 .nome-nft:hover{
     color:var(--cor-active);
-    
 }
 
 .valor-e-dias{
