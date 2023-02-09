@@ -60,20 +60,35 @@ body{
 .valor{
     font-weight: var(--weight-bold);
     color:var(--cor-active);
+    display:flex;
+    align-items: center;
 }
 
 .valor::before{
-    content:url(../images/icon-ethereum.svg);
+    content:'';
+    background: url(../images/icon-ethereum.svg) no-repeat center;
+    width: 15px;
+    height: 22px;
+    display:inline-block;
     padding-right:.5rem;
 }
 
+.dias{
+    display: flex;
+    align-items: center;
+}
+
 .dias::before{
-    content:url(../images/icon-clock.svg);
+    content:'';
+    background:url(../images/icon-clock.svg) no-repeat center ;
+    width:17px;
+    height:20px;
+    display: inline-block;
     padding-right:.5rem;
 }
 
 hr{
-    border:1px solid var(--cor-linha)
+    border:1px solid var(--cor-linha);
 }
 
 .avatar-e-criador{
